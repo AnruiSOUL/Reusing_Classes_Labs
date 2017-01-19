@@ -7,7 +7,6 @@ package ReusingClassesLabs;
 public class Main {
     public static void main (String[] args){
         RotateArray object = new RotateArray();
-
         int array[] = {1,2,3,4,5};
 
         System.out.println("Original: ");
@@ -29,6 +28,7 @@ public class Main {
     bob.setName("jim");
     System.out.println(bob.getName());
     steve.setAlignment("Good");
+    steve.setName("James");
     System.out.println(steve.getAlignment());
     stacy.setGender("N/A"); //unable to set SuperHuman fields.
     System.out.println(stacy.getGender());
